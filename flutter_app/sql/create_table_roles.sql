@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS logistics.roles;
+CREATE TABLE logistics.roles (
+    id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL COMMENT '権限名',
+    PRIMARY KEY (id)
+);
