@@ -30,7 +30,6 @@ import 'package:logistics/features/supplier/screens/supplier_form_screen.dart';
 import 'package:logistics/features/supplier/screens/supplier_list_screen.dart';
 import 'package:logistics/features/supplier/repository/supplier_repository.dart';
 
-
 Future<void> main() async {
   try {
     await dotenv.load(fileName: '.env');
@@ -38,7 +37,6 @@ Future<void> main() async {
     print(e);
   }
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
